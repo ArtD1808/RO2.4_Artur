@@ -1,8 +1,8 @@
 int[] numbers = { -4, -3, -2, -1, 0, 1, 2, 3, 4 };
 
-int n = numbers.Length; // длина массива
-int k = n / 2;          // середина массива
-int temp;               // вспомогательный элемент для обмена значениями
+int n = numbers.Length;
+int k = n / 2;
+int temp;
 
 for(int i = 0; i < k; i++)
 {
